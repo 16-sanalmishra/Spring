@@ -1,0 +1,6 @@
+package com.springdemos.SpringCore.ShoppingCart;
+
+public class ShoppingCart {
+	String name;
+	Items item;
+}

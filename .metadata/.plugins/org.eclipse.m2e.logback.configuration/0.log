@@ -409,3 +409,5 @@
 2022-04-29 10:26:30,045 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringCore\src\test\resources
 2022-04-29 10:26:57,018 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-04-29 10:26:57,018 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringCore\src\main\resources
+2022-04-29 10:26:57,019 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-29 10:26:57,019 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringCore\src\test\resources

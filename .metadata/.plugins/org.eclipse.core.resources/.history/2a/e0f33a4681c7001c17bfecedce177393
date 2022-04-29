@@ -1,0 +1,5 @@
+package com.springdemos.SpringCore.lifecycle;
+
+public class Patient {
+
+}

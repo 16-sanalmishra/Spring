@@ -1,0 +1,7 @@
+package com.springdemos.SpringCore.reftypes;
+
+public class Scores {
+	double math;
+	double physics;
+	double chemistry;
+}

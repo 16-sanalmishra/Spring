@@ -12,7 +12,6 @@
 		class="com.springdemos.SpringCore.lifecycle.annotations.Patient"
 		p:id="987" />
 
-	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
-
+		<context:annotation-config />
 
 </beans>

@@ -1,0 +1,24 @@
+package com.springdemos.SpringCore.dependencycheck;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.springdemos.SpringCore.lifecycle.Patient;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		// create the spring container - box
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+				"com/springdemos/SpringCore/dependencycheck/config.xml");
+		context.registerShutdownHook();
+
+		// get the hospital bean from the container
+		Prescription patient = (Patient) context.getBean("patient");
+		
+		// print the bean
+		System.out.println(patient);
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.springdemos.SpringCore.beanscopes;
+
+public class Address {
+
+}

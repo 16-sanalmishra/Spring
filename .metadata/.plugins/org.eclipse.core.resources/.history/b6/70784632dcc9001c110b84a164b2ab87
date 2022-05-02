@@ -1,0 +1,5 @@
+package com.springdemos.SpringCore.steretoype.annotation;
+
+public class Coach {
+
+}

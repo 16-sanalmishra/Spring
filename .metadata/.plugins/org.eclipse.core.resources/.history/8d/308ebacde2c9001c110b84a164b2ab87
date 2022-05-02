@@ -1,0 +1,7 @@
+package com.springdemos.SpringCore.steretoype.annotation;
+
+public class CoachProfile {
+	
+	String title;
+	String company;
+}

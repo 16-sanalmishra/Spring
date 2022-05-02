@@ -2,7 +2,6 @@ package com.springdemos.SpringCore.steretoype.annotation;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -20,10 +19,8 @@ public class Coach {
 
 	@Value("#{productNames}")
 	List<String> products;
-	@Autowired
-	private CoachProfile cp;
-
 	
+	private CoachProfile cp;
 
 	public CoachProfile getCp() {
 		return cp;

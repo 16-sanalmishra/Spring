@@ -1,0 +1,18 @@
+package com.springdemos.SpringCore.standalone.collections;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+				"com/springdemos/SpringCore/list/config.xml");
+	
+		ProductsList hos = (Hospital) context.getBean("hos");
+		System.out.println(hos);
+		System.out.println(hos.getDepartments().getClass());
+	}
+	
+
+}

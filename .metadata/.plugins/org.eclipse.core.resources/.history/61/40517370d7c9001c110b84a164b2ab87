@@ -1,0 +1,6 @@
+package com.springdemos.SpringCore.standalone.collections;
+
+public class ProductsList {
+
+	List<String> ProductsName;
+}

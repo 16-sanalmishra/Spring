@@ -9,8 +9,9 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.dependencycheck.Prescription"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.lifecycle.Patient"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.springdemos.SpringCore.QuesAns.Question"/>
 </qualifiedTypeNameHistroy>

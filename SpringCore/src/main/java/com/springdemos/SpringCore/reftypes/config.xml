@@ -15,7 +15,7 @@
 	<bean name="student"
 		class="com.springdemos.SpringCore.reftypes.Student">
 		<property name="score">
-			<ref bean="scores" />
+			<ref bean ="scores" />
 		</property>
 
 	</bean>

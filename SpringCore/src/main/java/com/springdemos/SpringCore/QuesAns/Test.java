@@ -13,11 +13,11 @@ public class Test {
 				
 
 		// get the hospital bean from the container
-		Question ad1 = (Question) context.getBean("ques");
+		Question q1 = (Question) context.getBean("ques");
 
 		// print the bean
-		System.out.println(ad1);
-		System.out.println(ad1.hashCode());
+		System.out.println(q1);
+		System.out.println(q1.hashCode());
 	
 
 	}

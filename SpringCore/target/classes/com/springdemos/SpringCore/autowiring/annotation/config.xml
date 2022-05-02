@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="address1"
+		class="com.springdemos.SpringCore.autowiring.annotation.Address"
+		c:housenumber="987" c:street="Main Street" c:city="Mumbai"
+		scope="prototype" />
+		
+	<bean name="address2"
+		class="com.springdemos.SpringCore.autowiring.annotation.Address"
+		c:housenumber="98" c:street="Main Street York" c:city="Chennai"
+		scope="prototype" />
+
+	<bean name="emp"
+		class="com.springdemos.SpringCore.autowiring.annotation.Employee" c:id="13"
+		c:name="Sanal" />
+
+	<context:annotation-config />
+
+
+</beans>

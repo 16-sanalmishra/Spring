@@ -14,15 +14,9 @@ public class Coach {
 	String name;
 	@Value("${dbuser}")
 	String dbuser;
-	@Value("#{productNames}")
+	@Value("#{pro}")
 	List<String> products;
 	
-	public List<String> getProducts() {
-		return products;
-	}
-	public void setProducts(List<String> products) {
-		this.products = products;
-	}
 	public String getDbuser() {
 		return dbuser;
 	}
@@ -43,9 +37,8 @@ public class Coach {
 	}
 	@Override
 	public String toString() {
-		return "Coach [id=" + id + ", name=" + name + ", dbuser=" + dbuser + ", products=" + products + "]";
+		return "Coach [id=" + id + ", name=" + name + ", dbuser=" + dbuser + "]";
 	}
-	
 	
 	
 }

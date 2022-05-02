@@ -14,7 +14,7 @@ public class Coach {
 	String name;
 	@Value("${dbuser}")
 	String dbuser;
-	@Value("#{productNames}")
+	@Value("#{product}")
 	List<String> products;
 	
 	public List<String> getProducts() {

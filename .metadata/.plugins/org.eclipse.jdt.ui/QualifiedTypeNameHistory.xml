@@ -13,9 +13,10 @@
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.dependencycheck.Prescription"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.lifecycle.Patient"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.QuesAns.Question"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.springdemos.SpringCore.interfaceinjection.Sport"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
 </qualifiedTypeNameHistroy>

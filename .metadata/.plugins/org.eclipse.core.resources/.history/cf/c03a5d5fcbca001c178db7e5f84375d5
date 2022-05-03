@@ -1,0 +1,10 @@
+package com.springdemos.SpringCore.interfaceinjection;
+
+public class BasketBall implements Sport {
+
+	@Override
+	public String play() {
+		return "Playing BasketBall";
+	}
+
+}

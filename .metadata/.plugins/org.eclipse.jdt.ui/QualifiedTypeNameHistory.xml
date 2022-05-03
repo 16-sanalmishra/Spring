@@ -12,6 +12,10 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.dependencycheck.Prescription"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.lifecycle.Patient"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.springdemos.SpringCore.QuesAns.Question"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>

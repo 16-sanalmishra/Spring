@@ -42,10 +42,8 @@ public class Coach {
 
 	@Override
 	public String toString() {
-		return "Coach [id=" + id + ", name=" + name + ", sport1=" + sport1.play() + ", sport2=" + sport2.play() + "]";
+		return "Coach [id=" + id + ", name=" + name + ", sport=" + sport.play() + "]";
 	}
-
-	
 	
 
 }

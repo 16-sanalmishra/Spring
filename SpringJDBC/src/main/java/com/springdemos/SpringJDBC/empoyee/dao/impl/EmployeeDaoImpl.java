@@ -22,10 +22,20 @@ public class EmployeeDaoImpl implements EmployeeDao{
 		this.jdbcTemplate = jdbcTemplate;
 	}
 
+	
+
 	@Override
-	public void createemployee(Employee emp) {
-		// TODO Auto-generated method stub
-		
+	public int update(Employee emp) {
+		String sql = "update employee set firstname=? , lastname=? where id=?";
+		int result = jdbcTemplate.update(sql, emp.getFname(), emp.getLname(),emp.getId());
+		return result;
+	}
+
+	@Override
+	public int delete(Employee emp) {
+		String sql = "delete from employee where id=?";
+		int result = jdbcTemplate.update(sql,emp.getId());
+		return result;
 	}
 
 }

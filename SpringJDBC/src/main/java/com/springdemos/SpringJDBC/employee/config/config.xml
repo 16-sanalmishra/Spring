@@ -16,12 +16,12 @@
 	<bean name="jdbctemplate"
 		class="org.springframework.jdbc.core.JdbcTemplate"
 		p:dataSource-ref="datasource"></bean>
-		
-		<bean name="employeedao"
+
+	<bean name="employeedao"
 		class="com.springdemos.SpringJDBC.empoyee.dao.impl.EmployeeDaoImpl">
 		<property name="jdbcTemplate">
-			<ref bean="jdbctemplate"/>
+			<ref bean="jdbctemplate" />
 		</property>
-		</bean>
+	</bean>
 
 </beans>

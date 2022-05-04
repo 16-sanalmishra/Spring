@@ -2077,3 +2077,5 @@ Caused by: org.eclipse.core.runtime.OperationCanceledException: null
 2022-05-04 11:40:43,035 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringJDBC\src\test\resources
 2022-05-04 11:40:51,335 [Worker-61: Launching SpringJdbcApp (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-04 11:40:51,336 [Worker-61: Launching SpringJdbcApp (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringJDBC\src\main\resources
+2022-05-04 11:40:51,336 [Worker-61: Launching SpringJdbcApp (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-04 11:40:51,336 [Worker-61: Launching SpringJdbcApp (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sanamishra\Spring Demo\SpringJDBC\src\test\resources

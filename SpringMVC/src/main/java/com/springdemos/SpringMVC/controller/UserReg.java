@@ -24,4 +24,17 @@ public class UserReg {
 		mv.setViewName("userregresult");
 		return mv;
 	}
+	
+
+//	@RequestMapping("/register")
+//	public String showRegistrationPage() {
+//		return "userreg";
+//	}
+//	
+//	@RequestMapping(value="registeruser", method=RequestMethod.POST)
+//	public String registerUser(@ModelAttribute("user") User user, ModelMap model) {
+//		System.out.println("Received object from UI: " + user);
+//		model.addAttribute("user", user);
+//		return "userregresult";
+//	}
 }

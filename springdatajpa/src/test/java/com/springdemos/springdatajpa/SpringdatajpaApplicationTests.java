@@ -48,11 +48,24 @@ class SpringdatajpaApplicationTests {
 		List<Product> products = (List<Product>) repo.findAll();
 		System.out.println(products);
 	}
+	
 
+	
 	@Test
-	void delete() {
+	void findByName() {
 		ProductRepository repo = context.getBean(ProductRepository.class);
-		Product p = repo.deleteById(1234);
-	}
+		List<Product> products = (List<Product>) repo.findByName("Sanal");
+		System.out.println(products);
 
+	
+
+}@Test
+	void findByNameAndPrice() {
+	ProductRepository repo = context.getBean(ProductRepository.class);
+	List<Product> products = (List<Product>) repo.findByNameAndPrice("Sanal" , 0d);
+	System.out.println(products);
+
+
+
+}
 }

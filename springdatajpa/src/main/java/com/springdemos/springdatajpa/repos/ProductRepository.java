@@ -10,4 +10,5 @@ public interface ProductRepository extends CrudRepository<Product, Integer>{
 
 	List<Product> findByName(String name);
 	List<Product> findByNameAndPrice(String name,Double d);
+	List<Product> findByPriceGreaterThan(double d);
 }

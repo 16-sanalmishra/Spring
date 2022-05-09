@@ -51,7 +51,7 @@ class SpringdatajpaApplicationTests {
 	
 
 	
-	@Test
+//	@Test
 	void findByName() {
 		ProductRepository repo = context.getBean(ProductRepository.class);
 		List<Product> products = (List<Product>) repo.findByName("Sanal");
@@ -59,7 +59,8 @@ class SpringdatajpaApplicationTests {
 
 	
 
-}@Test
+}
+//	@Test
 	void findByNameAndPrice() {
 	ProductRepository repo = context.getBean(ProductRepository.class);
 	List<Product> products = (List<Product>) repo.findByNameAndPrice("Sanal" , 0d);
@@ -68,4 +69,22 @@ class SpringdatajpaApplicationTests {
 
 
 }
+	//@Test
+	void findByPriceGreaterThan() {
+		ProductRepository repo = context.getBean(ProductRepository.class);
+		List<Product> products = (List<Product>) repo.findByPriceGreaterThan(75d);
+		System.out.println(products);
+	}
+	@Test
+	void deleteProduct() {
+		
+			ProductRepository pr = context.getBean(ProductRepository.class);
+			Optional<Product> p = pr.findById(1234);
+			Product product = null;
+			if (p.isPresent()) {
+				product = p.get();
+			}
+			pr.delete(product);
+	}
+	
 }

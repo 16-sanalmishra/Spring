@@ -1,7 +1,0 @@
-package com.springdemos.SpringCore.beanscopes;
-
-public class Address {
-	int housenumber;
-	String street;
-	String city;
-}

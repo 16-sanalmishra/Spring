@@ -1,8 +1,0 @@
-package com.springdemos.SpringCore.standalone.collections;
-
-import java.util.List;
-
-public class ProductsList {
-
-	List<String> ProductNames;
-}
